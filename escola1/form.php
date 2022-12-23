@@ -13,7 +13,7 @@
 <div class="container flex">
     <h1 class="titulo">Cadastro de Alunos</h1>
 
-    <div class="lista" style="">
+    <div class="lista" >
         <form method="POST" action="./gravar.php">
             <input type="text" name="nome" value="<?php $nome ?>" placeholder="Nome ..." style="width: 100%">
             <input type="text" name="matricula" value="<?php $matricula ?>" style="display: none">
