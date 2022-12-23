@@ -14,15 +14,12 @@
     <h1 class="titulo">Cadastro de Alunos</h1>
 
     <div class="lista" style="">
-        <form method="POST" action="gravar.php">
+        <form method="POST" action="./gravar.php">
             <input type="text" name="nome" value="<?php $nome ?>" placeholder="Nome ..." style="width: 100%">
             <input type="text" name="matricula" value="<?php $matricula ?>" style="display: none">
+            <input class="buttons" type="submit" value="Salvar">
         </form>
     </div>
-
-    <a class="buttons flex" href="form.php">
-        <input type="submit" value="Salvar">
-    </a>
 </div>
 </body>
 </html>
