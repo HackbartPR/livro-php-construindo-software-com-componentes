@@ -14,12 +14,13 @@
 
         <div class="lista flex">
             <div class="lista-titulo flex">
-                <span>Matrícula</span>
-                <span>Nome</span>
+                <span><strong>Matrícula</strong></span>
+                <span><strong>Nome</strong></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="lista-nomes flex">
-                <?php require('listar.php') ?>
-            </div>
+            
+            <?php require('listar.php') ?>           
         </div>
 
         <a class="buttons flex" href="form.php">
