@@ -64,6 +64,13 @@ body{
     flex-direction: row;
 }
 
+.lista-nomes span{
+    position: relative;
+    width: 100%;
+
+    text-align: center;
+}
+
 
 .buttons{
     position: relative;
